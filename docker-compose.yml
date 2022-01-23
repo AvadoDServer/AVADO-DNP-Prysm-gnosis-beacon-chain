@@ -6,5 +6,7 @@ services:
     restart: always
     volumes:
       - 'data:/data'
+    environment:
+      - EXTRA_OPTS=
 volumes:
   data: {}

@@ -17,6 +17,9 @@
     ],
     "volumes": [
       "data:/data"
+    ],
+    "environment": [
+      "EXTRA_OPTS="
     ]
   },
   "license": "GLP-3.0",
