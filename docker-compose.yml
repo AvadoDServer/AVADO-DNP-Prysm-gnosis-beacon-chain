@@ -4,3 +4,7 @@ services:
     build: ./build
     image: 'prysm-gnosis-beacon-chain.avado.dnp.dappnode.eth:0.0.1'
     restart: always
+    volumes:
+      - 'data:/data'
+volumes:
+  data: {}
