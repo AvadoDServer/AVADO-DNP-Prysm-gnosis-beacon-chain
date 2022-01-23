@@ -1,6 +1,7 @@
 {
   "name": "prysm-gnosis-beacon-chain.avado.dnp.dappnode.eth",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "upstream": "v2.0.5-gbc",
   "description": "gnosis beacon chain (GBC) package - runs the Gnosis beacon chain on your AVADO",
   "title": "Gnosis beacon chain",
   "autoupdate": true,
@@ -8,9 +9,9 @@
   "avatar": "/ipfs/QmVAqwNGshv5eNQTbS33XhB9vvBrEZFrNAWCD95vsJE2yh",
   "author": "sponnet",
   "image": {
-    "path": "prysm-gnosis-beacon-chain.avado.dnp.dappnode.eth_0.0.1.tar.xz",
-    "hash": "/ipfs/QmWyy6yrNnqiEcNbUda3SirwhBgcXS3oNTbjCPRkBAnkGA",
-    "size": 34897980,
+    "path": "prysm-gnosis-beacon-chain.avado.dnp.dappnode.eth_0.0.2.tar.xz",
+    "hash": "/ipfs/Qmb8wFVMpifVYqvKDYB7fdE5jWLdJHi9a6skx8KVYiU34d",
+    "size": 34789816,
     "ports": [
       "12001:12001/udp",
       "13001:13001"
@@ -22,6 +23,5 @@
       "EXTRA_OPTS="
     ]
   },
-  "license": "GLP-3.0",
-  "builddate": "2022-01-07T14:38:45.491Z"
+  "license": "GLP-3.0"
 }
