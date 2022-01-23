@@ -15,8 +15,13 @@
     "ports": [
       "12001:12001/udp",
       "13001:13001"
+    ],
+    "volumes": [
+      "data:/data"
+    ],
+    "environment": [
+      "EXTRA_OPTS="
     ]
   },
-  "license": "GLP-3.0",
-  "builddate": "2022-01-22T21:46:25.612Z"
+  "license": "GLP-3.0"
 }
