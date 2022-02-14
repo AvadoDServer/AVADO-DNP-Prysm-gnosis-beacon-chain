@@ -15,7 +15,8 @@ ENTRYPOINT [ "sh", "-c", "exec beacon-chain \
     --grpc-gateway-host=0.0.0.0 \
     --monitoring-host=0.0.0.0 \
     --p2p-local-ip=0.0.0.0 \
-    --http-web3provider=\"https://rpc.xdaichain.com/\" \
+    --http-web3provider=\"http://nethermind-gnosis.my.ava.do:8545\" \
+    --fallback-web3provider=\"https://rpc.xdaichain.com/\" \
     --grpc-gateway-port=3500 \
     --grpc-gateway-corsdomain=\"*\" \
     --accept-terms-of-use \
