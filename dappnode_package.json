@@ -9,9 +9,6 @@
   "avatar": "/ipfs/QmVAqwNGshv5eNQTbS33XhB9vvBrEZFrNAWCD95vsJE2yh",
   "author": "sponnet",
   "image": {
-    "path": "prysm-gnosis-beacon-chain.avado.dnp.dappnode.eth_0.0.2.tar.xz",
-    "hash": "/ipfs/Qmb8wFVMpifVYqvKDYB7fdE5jWLdJHi9a6skx8KVYiU34d",
-    "size": 34789816,
     "ports": [
       "12001:12001/udp",
       "13001:13001"
