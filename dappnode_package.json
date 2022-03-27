@@ -1,6 +1,6 @@
 {
   "name": "prysm-gnosis-beacon-chain.avado.dnp.dappnode.eth",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "upstream": "v2.0.5-gbc",
   "description": "gnosis beacon chain (GBC) package - runs the Gnosis beacon chain on your AVADO",
   "title": "Gnosis beacon chain",
@@ -13,6 +13,7 @@
       "12001:12001/udp",
       "13001:13001"
     ],
+    "restart": "always",
     "volumes": [
       "data:/data"
     ],
