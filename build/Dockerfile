@@ -1,6 +1,6 @@
 FROM debian:buster-slim 
 
-COPY --from=ghcr.io/gnosischain/gbc-prysm-beacon-chain:v2.0.6-gbc /app/cmd/beacon-chain/beacon-chain /usr/local/bin/beacon-chain
+COPY --from=ghcr.io/gnosischain/gbc-prysm-beacon-chain:v2.1.2-gbc /app/cmd/beacon-chain/beacon-chain /usr/local/bin/beacon-chain
 
 RUN apt update && \
   apt install -y ca-certificates file && \
@@ -26,6 +26,4 @@ ENTRYPOINT [ "sh", "-c", "exec beacon-chain \
     --chain-config-file /root/sbc/config/config.yml \
     --p2p-tcp-port 13001 \
     --p2p-udp-port 12001 \
-    --p2p-max-peers 25 \
-    --min-sync-peers 1 \
     $EXTRA_OPTS" ]

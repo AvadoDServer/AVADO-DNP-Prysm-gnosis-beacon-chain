@@ -2,7 +2,7 @@ version: '3.4'
 services:
   prysm-gnosis-beacon-chain.avado.dnp.dappnode.eth:
     build: ./build
-    image: 'prysm-gnosis-beacon-chain.avado.dnp.dappnode.eth:0.0.6'
+    image: 'prysm-gnosis-beacon-chain.avado.dnp.dappnode.eth:0.0.7'
     restart: always
     volumes:
       - 'data:/data'
