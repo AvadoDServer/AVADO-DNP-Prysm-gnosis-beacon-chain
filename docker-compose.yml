@@ -4,6 +4,8 @@ services:
     build: ./build
     image: 'prysm-gnosis-beacon-chain.avado.dnp.dappnode.eth:0.0.7'
     restart: always
+    cap_add:
+      - NET_ADMIN
     volumes:
       - 'data:/data'
     environment:
