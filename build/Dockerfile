@@ -16,7 +16,12 @@ ENTRYPOINT [ "sh", "-c", "exec beacon-chain \
     --monitoring-host=0.0.0.0 \
     --p2p-local-ip=0.0.0.0 \
     --http-web3provider=\"http://nethermind-gnosis.my.ava.do:8545\" \
-    --fallback-web3provider=\"https://rpc.xdaichain.com/\" \
+    --fallback-web3provider=\"https://rpc.ankr.com/gnosis\" \
+    --fallback-web3provider=\"https://gnosis-mainnet.public.blastapi.io/\" \
+    --fallback-web3provider=\"https://gnosis.public-rpc.com\" \
+    --fallback-web3provider=\"https://gnosischain-rpc.gateway.pokt.network/\" \
+    --fallback-web3provider=\"https://rpc.gnosischain.com/\" \
+    --fallback-web3provider=\"https://rpc.xdaichain.com\" \
     --grpc-gateway-port=3500 \
     --grpc-gateway-corsdomain=\"*\" \
     --accept-terms-of-use \
