@@ -1,8 +1,3 @@
-# AVADO-DNP-Prysm-gnosis-beacon-chain
+Prysm is no longer supported for the Gnosis network.
 
-Beacon chain package for GBC
-
-See https://wiki.ava.do
-
-
-
+https://docs.ava.do/packages/gnosis/
